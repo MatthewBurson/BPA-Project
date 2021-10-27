@@ -1,0 +1,44 @@
+
+body {
+    background-image: linear-gradient(to bottom, rgba(197, 212, 253, 0.315) , rgba(160, 253, 172, 0.308));
+    font-family: verdana;
+}
+
+#title{
+    background-color: rgba(135, 245, 125, 0.5);
+    border-radius: 10px;
+    border: 2px solid rgb(68, 78, 62);
+    height: 200px;
+}
+div.transbox {
+  margin: 10px;
+  background-image: linear-gradient(to right, rgba(220, 226, 241, 0.315) , rgba(216, 240, 219, 0.308));;
+  border: 5px solid black;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100;
+  border-radius: 10px;
+  
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+}
+
+#homebox{
+  background-color: rgb(144, 235, 144);
+  width: 25%;
+  height: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border: 4px solid black;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(129, 162, 255, 0.274) , rgba(160, 253, 172, 0.308));
+
+}
+#hometext{
+  font-size: 4em;
+}

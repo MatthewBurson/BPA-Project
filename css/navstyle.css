@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  li {
+    float: left;
+    width: 90px;
+    transition: width 0.2s;
+  }
+  li:hover{
+      width: 100px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(123, 206, 137, 0.931);
+    color: rgb(255, 255, 255);
+  }
+  
+  li a.active {
+    color: rgba(37, 37, 37, 0.931);
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  li a.active:hover {
+    background-color: rgba(123, 206, 137, 0.931);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  #Donate{
+    background-color: rgba(123, 206, 137, 0.931);
+  }

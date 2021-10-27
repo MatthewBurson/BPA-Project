@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1; 
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 5px;
+  }
+  
+  li {
+    font-family: verdana;
+    float: left;
+    transition: width 0.3s, margin-right 0.5s, margin-left 0.5s;
+  }
+  li:hover{
+    background-color: rgb(184, 185, 185);
+    margin-top: -7px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 18px 26px;
+    text-decoration: none;
+  }
+
+  
+  li a:hover:not(.active) {
+    background-color: rgba(123, 206, 137, 0.931);
+    color: rgb(255, 255, 255);
+  }
+  
+  .active {
+    background-color: rgba(45, 226, 69, 0.308);
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+  div.transbox {
+    margin: 10px;
+    background-image: linear-gradient(to right, rgba(220, 226, 241, 0.315) , rgba(216, 240, 219, 0.308));;
+    border: 5px solid black;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100;
+    border-radius: 10px;
+    
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: 
+  }
