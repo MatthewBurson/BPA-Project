@@ -12,9 +12,12 @@ body {
 }
 #heading{
   background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-  height: 500px;
+  height: 105%;
   margin-top: -80px;
   z-index: 1;
+  background-size: 118%;
+  background-repeat: no-repeat;
+  
 }
 div.transbox {
   margin: 10px;
