@@ -51,3 +51,7 @@ div.transbox p {
 #hometext{
   font-size: 4em;
 }
+.header{
+  text-align: center;
+  font-weight: bolder;
+}
