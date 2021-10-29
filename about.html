@@ -11,12 +11,12 @@
 <body>
   <ul>
     <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" style="float:left" height="45px" l>
-    <li><a href="index.html" id="navbar">Home</a></li>
-    <li><a class="active" href="about.html" id="navbar">About</a></li>
-    <li><a href="" id="navbar">Template</a></li>
-    <li><a href="" id="navbar">Template</a></li>
-    <li><a href="" id="navbar">Template</a></li>
-    <li><a href="" id="navbar">Template</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="">Template</a></li>
+    <li><a href="">Template</a></li>
+    <li><a href="">Template</a></li>
+    <li><a href="">Template</a></li>
     <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
     <li style="float:right" id="Donate"><a href="Login.html">Login</a></li>
   </ul>
@@ -27,7 +27,7 @@
             <div class="text-white">
               <h1 class="mb-4">Heading</h1>
               <h4 class="mb-3">Subheading</h4>
-              <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button" onClick="document.getElementById('transbox').scrollIntoView()">Call to action</a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@
         <!-- Background image -->
  
     <div class="background">
-      <div class="transbox">
+      <div class="transbox" id="transbox">
         <p>The FitnessGram PACER Test is a multistage aerobic capacity test that progressively gets more difficult as it continues.
 
           The test is used to measure a student's aerobic capacity as part of the FitnessGram assessment. Students run back and forth as many times as they can, each lap signaled by a beep sound. The test get progressively faster as it continues until the student reaches their max lap score.
@@ -46,12 +46,10 @@
     <!-- Footer -->
 
     <footer class="bg-light text-center text-lg-start">
-      <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2021 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Our Project</a>
       </div>
-      <!-- Copyright -->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
