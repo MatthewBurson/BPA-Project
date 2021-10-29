@@ -7,14 +7,12 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/loginstyle.css" rel="stylesheet">
     <link href="css/navstyle.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="javascript/script.js"></script>
 </head>
 <body>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href=">Template</a></li>
+        <li><a href="">Template</a></li>
         <li><a href="">Template</a></li>
         <li><a href="">Template</a></li>
         <li><a href="">Template</a></li>
@@ -22,7 +20,7 @@
     </ul>
     <br><br><br><br>
 <div class="container">
-    <form action="/action_page.php">
+    <form name="myForm" action="Donate.html" onclick="return checkCookie()">
       <div class="row">
         <h2 style="text-align:center">Login</h2>
         <div class="col">
@@ -30,8 +28,8 @@
             <p>Or sign in manually:</p>
           </div>
   
-          <input type="text" name="username" placeholder="Username" required>
-          <input type="password" name="password" placeholder="Password" required>
+          <input type="text" name="username" placeholder="Username" onsubmit="setCookie(username)" required>
+          <input type="password" name="password" placeholder="Passwo11rd" required>
           <input type="submit" value="Login">
         </div>
   
@@ -47,3 +45,6 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="javascript/script.js"></script>
+  <script src="javascript/user.js"></script>
