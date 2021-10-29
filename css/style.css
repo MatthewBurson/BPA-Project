@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to bottom, rgba(197, 212, 253, 0.315) , rgba(131, 255, 147, 0.308));
+    background-image: linear-gradient(to bottom, rgba(197, 212, 253, 0.315) , rgba(95, 255, 116, 0.308));
     font-family: verdana;
 }
 
@@ -12,9 +12,12 @@ body {
 }
 #heading{
   background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-  height: 500px;
+  height: 105%;
   margin-top: -80px;
   z-index: 1;
+  background-size: 118%;
+  background-repeat: no-repeat;
+  
 }
 div.transbox {
   margin: 10px;

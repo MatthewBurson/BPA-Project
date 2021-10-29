@@ -10,7 +10,6 @@ ul {
   }
   
   li {
-    font-family: verdana;
     float: left;
     transition: width 0.3s, margin-right 0.5s, margin-left 0.5s;
   }
@@ -62,5 +61,4 @@ ul {
   div.transbox p {
     margin: 5%;
     font-weight: bold;
-    color: 
   }
