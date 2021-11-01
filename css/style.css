@@ -28,6 +28,7 @@ div.transbox {
   margin-right: auto;
   margin-top: 100;
   border-radius: 10px;
+  padding: 0px;
   
 }
 
@@ -54,4 +55,7 @@ div.transbox p {
 .header{
   text-align: center;
   font-weight: bolder;
+}
+#scroll {
+  margin-top: -20px;
 }
