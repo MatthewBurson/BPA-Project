@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/donatestyle.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -18,16 +19,62 @@
         <li><a href="">Template</a></li>
         <li style="float:right"  id="Donate"><a href="Donate.html" class="active">Donate</a></li>
       </ul>
-      <br><br><br>
-      <center><button onclick="myFunction()" id=donatebutton>Donate</button></center>
+      <div class="p-6 text-center bg-image" id="heading">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-4">Donate Now!</h1>
+              <h4 class="mb-3">You can donate to us to help reduce the amount of Carbon Footprint</h4>
 
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Donate Here!</a>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname" class="blacktext"><b>Username</b></label>
+      <div class="amount">
+        <span class="count" id="one">1.00$</span> 
+        <span class="count" id="two">1.00$</span> 
+        <span class="count" id="two">1.00$</span><br>
+        <span class="count" id="four">1.00$</span> 
+        <span class="count" id="two">1.00$</span> 
+        <span class="count" id="two">1.00$</span> 
+      </div>
+      <label for="psw" class="blacktext"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw" class="blacktext"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw" class="blacktext"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw" class="blacktext"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw" class="blacktext"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" class="blacktext">Donate</button>
+
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+    </div>
+  </form>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br<br><br><br>
+      <center><button onclick="myFunction()" id=donatebutton>Donate Here!</button></center>
+
+      
 <p id="demo"></p>
 
-<script>
-  function myFunction() {
-  alert("Penis length 0.01 mm");
-}
-</script>
+<script src="javascript/donate.js"></script>
 </body>
 </html>
-
