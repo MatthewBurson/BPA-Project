@@ -1,8 +1,6 @@
-function Donate(){
-    document.getElementsByClassName("now")[0].style.width = '5000px';
-    document.getElementsByClassName("now")[0].style.transition = '0.2s';
-    document.getElementsByClassName("boxtext")[0].style.color = 'green';
-    document.getElementsByClassName("boxtext")[0].style.transition = '0.2s';
+function DonateButton(){
+    document.getElementById('id01').style.display='block'
+    document.getElementsByClassName("now").style
 }
 
 function myFunction() {
