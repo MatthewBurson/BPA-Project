@@ -1,7 +1,12 @@
 
 body {
-    background-image: linear-gradient(to bottom, rgba(197, 212, 253, 0.315) , rgba(95, 255, 116, 0.308));
+    background-image: linear-gradient(to bottom, rgba(218, 229, 255, 0.315) , rgba(207, 255, 214, 0.308));
     font-family: verdana;
+}
+
+
+#headerimage{
+  margin-top: 10px;
 }
 
 #title{

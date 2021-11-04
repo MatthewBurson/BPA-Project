@@ -8,6 +8,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
     color: black;
 }
 
+#id02{
+  margin-top: 250px;
+  width: 1500px;
+}
+
 .amount{
     width: 400px;
     margin-left: auto;
