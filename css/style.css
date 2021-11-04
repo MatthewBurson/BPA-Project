@@ -4,6 +4,9 @@ body {
     font-family: verdana;
 }
 
+#boxtext{
+  color: rgb(0, 0, 0);
+}
 
 #headerimage{
   margin-top: 10px;
@@ -26,15 +29,16 @@ body {
 }
 div.transbox {
   margin: 10px;
-  background-image: linear-gradient(to right, rgba(220, 226, 241, 0.315) , rgba(216, 240, 219, 0.308));;
+  background-image: linear-gradient(to right, rgba(220, 226, 241, 0.945) , rgba(216, 240, 219, 0.863));;
   border: 5px solid black;
   width: 1250px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100;
-  border-radius: 10px;
-  padding: 0px;
-  
+  margin-top: 100px;
+  border-radius: 10px;  
+}
+#transboxbox{
+
 }
 
 div.transbox p {
@@ -59,6 +63,7 @@ div.transbox p {
 }
 .header{
   text-align: center;
+  margin-top: 30px;
   font-weight: bolder;
 }
 #scroll {
