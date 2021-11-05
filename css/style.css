@@ -41,6 +41,7 @@ div.transbox {
 
 }
 
+
 div.transbox p {
   margin: 5%;
   font-weight: bold;
@@ -48,7 +49,7 @@ div.transbox p {
 
 #homebox{
   background-color: rgb(144, 235, 144);
-  width: 25%;
+  width: 35%;
   height: 45%;
   margin-left: auto;
   margin-right: auto;
