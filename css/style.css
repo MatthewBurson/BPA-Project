@@ -1,11 +1,12 @@
 
 body {
-    background-image: linear-gradient(to bottom, rgba(218, 229, 255, 0.315) , rgba(207, 255, 214, 0.308));
+    
+    background-image: radial-gradient(rgb(161, 31, 161), rgb(56, 188, 197), rgb(41, 248, 23));
     font-family: verdana;
 }
 
 #boxtext{
-  color: rgb(0, 0, 0);
+  
 }
 
 #headerimage{
@@ -70,4 +71,7 @@ div.transbox p {
 #scroll {
   margin-top: -20px;
 }
+
+
+
 
