@@ -4,14 +4,6 @@ body {
     font-family: verdana;
 }
 
-#boxtext{
-  
-}
-
-#headerimage{
-  margin-top: 10px;
-}
-
 #title{
     background-color: rgba(135, 245, 125, 0.5);
     border-radius: 10px;
@@ -20,17 +12,17 @@ body {
 }
 #heading{
   background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-  height: 105%;
+  height: 92.3%;
   margin-top: -80px;
   z-index: 1;
-  background-size: 118%;
+  background-size: 2100px;
   background-repeat: no-repeat;
   
 }
 div.transbox {
   margin: 10px;
   background-image: linear-gradient(to right, rgba(220, 226, 241, 0.945) , rgba(216, 240, 219, 0.863));;
-  border: 5px solid black;
+  border: 1px solid black;
   width: 1250px;
   margin-left: auto;
   margin-right: auto;
@@ -43,8 +35,7 @@ div.transbox {
 
 
 div.transbox p {
-  margin: 5%;
-  font-weight: bold;
+  margin: 3%;
 }
 
 #homebox{
