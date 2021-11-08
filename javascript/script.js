@@ -35,13 +35,3 @@ function scrollFunctionOut(){
   document.getElementsByClassName("boxtext")[0].style.color = 'black';
   document.getElementsByClassName("boxtext")[0].style.transition = '0.2s';
 }
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}

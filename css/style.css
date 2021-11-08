@@ -10,14 +10,6 @@ body {
     border: 2px solid rgb(68, 78, 62);
     height: 200px;
 }
-#heading{
-  background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-  height: 92.3%;
-  margin-top: -80px;
-  background-size: 2100px;
-  background-repeat: no-repeat;
-  
-}
 div.transbox {
   margin: 10px;
   background-image: linear-gradient(to right, rgba(220, 226, 241, 0.945) , rgba(216, 240, 219, 0.863));;
