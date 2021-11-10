@@ -20,9 +20,6 @@ div.transbox {
   margin-top: 100px;
   border-radius: 10px;
 }
-div.transbox p {
-  margin: 3%;
-}
 
 #homebox{
   background-color: rgb(144, 235, 144);
@@ -30,7 +27,6 @@ div.transbox p {
   height: 210px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 300px;
   border: 1px solid black;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, rgba(129, 162, 255, 0.274) , rgba(160, 253, 172, 0.308));
@@ -77,11 +73,12 @@ div.transbox p {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 0px;
   background-color: white;
+  padding: 0 18px;
   max-height: 0;
+  margin-top: 10px;
   overflow: hidden;
-  width: 70%;
+  width: 80%;
   transition: max-height 0.2s ease-out;
 }
 
