@@ -26,12 +26,12 @@ div.transbox p {
 
 #homebox{
   background-color: rgb(144, 235, 144);
-  width: 600px;
-  height: 45%;
+  width: 1300px;
+  height: 210px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
-  border: 4px solid black;
+  margin-top: 300px;
+  border: 1px solid black;
   border-radius: 10px;
   background-image: linear-gradient(to bottom, rgba(129, 162, 255, 0.274) , rgba(160, 253, 172, 0.308));
 
@@ -48,6 +48,38 @@ div.transbox p {
   margin-top: -20px;
 }
 
+.long{
+  width: 100%;
+  height: 110%;
+  background-image: linear-gradient(rgb(253, 245, 253), rgb(236, 255, 234));
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

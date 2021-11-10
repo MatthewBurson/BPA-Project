@@ -23,7 +23,7 @@ window.onclick = function(event) {
     }
 }
 
-function scrollFunction(){
+/* function scrollFunction(){
   document.getElementsByClassName("transbox")[0].style.border = '1px solid green';
   document.getElementsByClassName("transbox")[0].style.transition = '0.2s';
   document.getElementsByClassName("boxtext")[0].style.color = 'green';
@@ -34,4 +34,19 @@ function scrollFunctionOut(){
   document.getElementsByClassName("transbox")[0].style.transition = '0.2s';
   document.getElementsByClassName("boxtext")[0].style.color = 'black';
   document.getElementsByClassName("boxtext")[0].style.transition = '0.2s';
+} */
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
 }
