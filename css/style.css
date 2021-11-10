@@ -63,7 +63,7 @@ div.transbox p {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 500px;
   border: none;
   text-align: left;
   outline: none;
@@ -77,9 +77,25 @@ div.transbox p {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
+  padding: 0 0px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
+  width: 70%;
   transition: max-height 0.2s ease-out;
+}
+
+#button1{
+  background-color:rgb(255, 253, 253);
+  width: 320px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: border-radius 0.5s, width 0.5s, font-size 0.5s, background-color 0.5s;
+}
+#button1:hover {
+  background-color: rgb(250, 237, 228);
+  font-size: 1.2em;
+  width: 500px;
+  border-radius: 12px;
 }
