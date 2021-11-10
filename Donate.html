@@ -6,18 +6,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/donatestyle.css" rel="stylesheet">
-  <link href="css/navstyle.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="">Template</a></li>
-        <li><a href="">Template</a></li>
-        <li><a href="">Template</a></li>
-        <li style="float:right"  id="Donate"><a href="Donate.html" class="active">Donate</a></li>
-      </ul>
+  <div id="test"><ul id="navbar">
+    <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" style="float:left" height="45px">
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="page.html">Page</a></li>
+    <li><a href="">Template</a></li>
+    <li><a href="">Template</a></li>
+    <li><a href="">Template</a></li>
+    <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
+    <li style="float:right" id="Donate"><a href="Login.html">Login</a></li></ul></div>
+      <div class="p-6 text-center bg-image" id="heading">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-4">Donate Now!</h1>
+              <h4 class="mb-3">You can donate to us to help reduce the amount of Carbon Footprint</h4>
+
+              <a class="btn btn-outline-light btn-lg" id="now" href="#!" role="button" onclick="DonateButton()" style="width:auto;">Donate Here!</a>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <h1 class="blacktext">Enter Information</h1>
+      <label for="uname" class="blacktext"><b>Full Name</b></label>
+      <input type="text" placeholder="Enter Name" name="uname" required>
+      <label for="uname" class="blacktext"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="uname" required>
+      <label for="uname" class="blacktext"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter Phone Number" name="uname" required>
+      <label for="uname" class="blacktext"><b>Billing Address</b></label>
+      <input type="text" placeholder="Enter Billing Address" name="uname" required>
+      <label for="psw" class="blacktext"><b>Credit Card</b></label>
+      <input type="password" placeholder="Enter Card Details" name="psw" required>
+      <a class="btn btn-outline-light btn-lg" href="#!" role="button" onclick="SwitchPage()" id="button">Continue</a>
+        </div>
+  </form>
+</div>
+
+
+
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <h1 class="blacktext">Select Amount</h1>
+      <label for="uname" class="blacktext"><b>Any Messages?</b></label>
+      <input type="text" placeholder="Enter Message (optional)" name="uname" required>
+    </form>
+     <label for="uname" class="blacktext"><b>Select $$$$$$</b></label><br><br>
+      <div class="amount">  
+        <button class="count" id="dollars">$1</button>
+        <button class="count" id="dollars">$5</button>
+        <button class="count" id="dollars">$10</button>
+        <button class="count" id="dollars2">$25</button>
+        <button class="count" id="dollars2">$50</button>
+        <button class="count" id="dollars2">$100</button>
+        <br><br>
+      </div></div>
+
+    
+
+      
+<p id="demo"></p>
+
+<script src="javascript/donate.js"></script>
 </body>
 </html>
-
