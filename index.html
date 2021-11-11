@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
   <link href="css/flipcard.css" rel="stylesheet">
@@ -25,13 +26,13 @@
       </div>
       
       
-      <center><button type="button" class="collapsible" id="button1">Open Collapsible</button>
-      <div class="content">
+      <center><button data-toggle="collapse" data-target="#demo" id="button1">View Creators</button>
+        <div id="demo" class="collapse">
     <div id="homebox">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="https://th.bing.com/th/id/R.ff5ea5f781c2dfdbe42bf5bf7206b12f?rik=CFdrv8c1lKJxhg&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20120608235110%2fcaillou%2fimages%2fb%2fb4%2fCaillou_Logo.jpg&ehk=NQ2Kt6PuxOxUw5E9X3hnCZqCY%2fjj5Gsz1CE9OIqQVDM%3d&risl=&pid=ImgRaw&r=0" alt="Avatar" style="width:300px;height:200px;">
+            <img src="images/caillou.jfif" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
             <h1>Matthew Burson</h1>
@@ -43,7 +44,7 @@
       <div class="flip-card" id="avatar1"s>
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="https://yt3.ggpht.com/a-/AAuE7mDK53O5tAG7AVPthWDRyxaCeeh7lAUlW35Dag=s900-mo-c-c0xffffffff-rj-k-no" alt="Avatar" style="width:300px;height:225px;">
+            <img src="images/peppapig.jpg" Avatar id="useravatar">
           </div>
           <div class="flip-card-back">
             <h1>Spencer Augenstein</h1>
@@ -55,7 +56,7 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="https://i.redd.it/g2d8ydez8vg31.jpg" alt="Avatar" style="width:300px;height:300px;">
+            <img src="https://i.redd.it/g2d8ydez8vg31.jpg" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
             <h1>Emon</h1>
@@ -67,7 +68,7 @@
       <div class="flip-card" id="avatar1">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="https://th.bing.com/th/id/R.04278b834e3ed05fd52577ddf48703b8?rik=QWHn1k1L2xnbmg&pid=ImgRaw&r=0" alt="Avatar" style="width:290px;height:190px;">
+            <img src="images/duck.png" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
             <h1>Landon</h1>
@@ -88,5 +89,7 @@
         </div>
       </footer>
       <script src="javascript/script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
