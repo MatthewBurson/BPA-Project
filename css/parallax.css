@@ -1,62 +1,43 @@
-#long{
-  width: 99%;
-  height: 800px;
+.long{
+  width: 100%;
+  height: 110%;
   background-image: linear-gradient(rgb(253, 245, 253), rgb(236, 255, 234));
   margin-left: auto;
   margin-right: auto;
 }
 
 #headtext{
-    margin-top: 160px;
+  font-size: 50px;
 }
 
-.background{
-
+#continuebutton{
+  margin-top: 300px;
+  color: black;
+  border-color: black;
+  width: 170px;
+  height: 50px;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('../images/landscape2.jfif');
-  
-    /* Set a specific height */
-    min-height: 600px; 
-    height: 900px; 
-  
+
+#headerimage{
+  height: 900px;
+  margin-top: 10px;
+  background-image: url('../images/landscape2.jfif');
+}
+
+.parallax{
+  height: 600px;
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  
-.parallax1 {
-    /* The image used */
+#parallax1 {
     background-image: url('../images/landscape1.jpg');
-  
-    /* Set a specific height */
-    min-height: 400px;
-    height: 600px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
-  
-  .parallax2 {
-    /* The image used */
+  }
+ #parallax2 {
     background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-  
-    /* Set a specific height */
-    min-height: 400px;
-    height: 300px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }

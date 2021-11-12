@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
   <link href="css/flipcard.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-      <ul>
+  <br><div class="long" id="scroll">
+      <ul id="navbar">
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="page.html">Page</a></li>
@@ -19,60 +20,76 @@
         <li><a href="">Template</a></li>
         <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
       </ul>
-      <div class="container p-3 my-3" id="title" id="animation">
+      <br><br><div class="container p-3 my-3" id="title" id="animation">
         <center><h1>Home Page</h1>
         <p>This container has a dark background color and a white text, and some extra padding and margins. Test</p></center>
       </div>
-    
+      
+      
+      <center><button data-toggle="collapse" data-target="#demo" id="button1">View Creators</button>
+        <div id="demo" class="collapse">
     <div id="homebox">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <img src="images/caillou.jfif" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
             <h1>Matthew Burson</h1>
-            <p>hehehehehehe</p>
-            <p>hehehehehe</p>
+            <p>I helped develop the site</p>
+            <p>I like to talk about food</p>
           </div>
         </div>
       </div>
-      <div class="flip-card" id="avatar1">
+      <div class="flip-card" id="avatar1"s>
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <img src="images/peppapig.jpg" Avatar id="useravatar">
           </div>
           <div class="flip-card-back">
-            <h1>Matthew Burson</h1>
-            <p>hehehehehehe</p>
-            <p>hehehehehe</p>
+            <h1>Spencer Augenstein</h1>
+            <p>Web Design Leader</p>
+            <p>I Like Peppa Pig :)</p>
           </div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="" alt="Avatar" style="width:300px;height:300px;">
+            <img src="https://i.redd.it/g2d8ydez8vg31.jpg" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
-            <h1>Matthew Burson</h1>
-            <p>hehehehehehe</p>
-            <p>hehehehehe</p>
+            <h1>Emon Bhattacherjee</h1>
+            <p>I am from India</p>
+            <p>I like the Weekend</p>
           </div>
         </div>
       </div>
       <div class="flip-card" id="avatar1">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <img src="images/duck.png" alt="Avatar" id="useravatar">
           </div>
           <div class="flip-card-back">
-            <h1>Matthew Burson</h1>
-            <p>hehehehehehe</p>
-            <p>hehehehehe</p>
+            <h1>Landon Dicke</h1>
+            <p>I play Roblox :)</p>
+            <p>This is Daffy Duck</p>
           </div>
         </div>
       </div>
       </div>
+    </div>
+    </div></center>
+      <!-- Footer -->
+      
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">Our Project</a>
+        </div>
+      </footer>
+      <script src="javascript/script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
