@@ -3,16 +3,15 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-    border: 1px black solid;
+    border: 1px rgb(163, 163, 163) solid;
     border-radius: 10px;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
     width: 99%;
     position: static;
-    transition: top 0.3s;
+    transition: top 0.1s;
   }
   
 #test{
@@ -67,27 +66,27 @@
   }
 
 
+/*
 
-
-  /* Style the navbar */
+   Style the navbar 
 #navbar {
   overflow: hidden;
 }
 
 
-/* Page content */
+Page content
 .content {
-  padding: 16px;
+  padding: 6px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+ The sticky class is added to the navbar with JS when it reaches its scroll position 
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) 
 .sticky + .content {
   padding-top: 60px;
 }
+   */

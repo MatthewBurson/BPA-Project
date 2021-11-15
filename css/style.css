@@ -14,7 +14,9 @@ div.transbox {
   margin: 10px;
   background-image: linear-gradient(to right, rgba(220, 226, 241, 0.945) , rgba(216, 240, 219, 0.863));;
   border: 1px solid black;
-  width: 1250px;
+  width: 1000px;
+  height: 500px;
+  font-size: larger;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -61,7 +63,7 @@ div.transbox {
 
 #button1{
   background-color:rgb(255, 253, 253);
-  margin-top: 100px;
+  margin-top: 300px;
   width: 320px;
   height: 60px;
   font-size: 25px;
