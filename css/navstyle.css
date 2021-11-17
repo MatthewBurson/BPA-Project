@@ -23,7 +23,7 @@
 
   li {
     float: left;
-    width: 90px;
+    width: 100px;
     transition: width 0.2s;
     z-index: 2;
   }
