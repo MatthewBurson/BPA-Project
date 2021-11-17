@@ -1,4 +1,3 @@
-
 body {
     background-image: white;
     font-family: verdana;
@@ -15,7 +14,7 @@ div.transbox {
   background-image: linear-gradient(to right, rgba(220, 226, 241, 0.945) , rgba(216, 240, 219, 0.863));;
   border: 1px solid black;
   width: 1000px;
-  height: 500px;
+  height: 400px;
   font-size: larger;
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +24,9 @@ div.transbox {
 
 #homebox{
   background-color: rgb(144, 235, 144);
-  width: 1300px;
+  width: 1350px;
   height: 220px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
