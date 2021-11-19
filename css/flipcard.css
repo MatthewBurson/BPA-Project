@@ -41,7 +41,7 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgba(16, 119, 29, 0.466);
     color: white;
     transform: rotateY(180deg);
   }

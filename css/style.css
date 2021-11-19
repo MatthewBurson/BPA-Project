@@ -34,6 +34,10 @@ div.transbox {
   background-image: linear-gradient(to bottom, rgba(129, 162, 255, 0.274) , rgba(160, 253, 172, 0.308));
 
 }
+
+#boxtext{
+  background-color: rgb(163, 240, 163);;
+}
 #hometext{
   font-size: 4em;
 }
@@ -74,4 +78,40 @@ div.transbox {
   font-size: 1.2em;
   width: 350px;
   border-radius: 12px;
+}
+
+#tips{
+  background-color: rgba(11, 121, 103, 0.103);
+  width: 1400px;
+  height: 8%;
+  border-radius: 10px;
+  padding: 30px;
+  transition: width 0.3s, height 0.3s, background-color 0.5s;
+  border: black 1px solid;
+}
+#tips:hover{
+  background-color: rgba(20, 29, 114, 0.144);
+  width: 1500px;
+  height: 100px;
+}
+
+#tiptext{
+  font-size: 25px;
+  margin-top: -5px;
+}
+#tiptext2{
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+#tiptitle{
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+#info{
+  width: 80%;
+  height: 45%;
+  border: 1px solid black;
+  border-radius: 10px;
 }
