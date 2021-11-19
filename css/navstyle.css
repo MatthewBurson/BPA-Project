@@ -13,7 +13,12 @@
     position: static;
     transition: top 0.1s;
   }
-  
+
+#logo{
+ float: left;
+ height: 50px;   
+}
+
 #test{
   color: black;
   width: 100%;
