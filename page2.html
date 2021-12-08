@@ -5,26 +5,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/tips.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
-  <link href="css/flipcard.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-  <br><div class="long" id="scroll">
-    <ul id="navbar">
+<body> <div class="long" id="scroll">
+
+        
+      <!-- Desktop class sidebar -->
+  <div id="navdiv"><br><ul id="navbar">
         <img src="images/logo.png" id="logo">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="page.html">Info</a></li>
         <li><a class="active" href="page2.html">Tips</a></li>
-        <li><a href="">Template</a></li>
-        <li><a href="">Template</a></li>
+        <li><a href="page3.html">Effects</a></li>
+        <li><a href="facts.html">facts</a></li>
         <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
         <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
-      </ul>
+      </ul></div>
+      
+      <!-- Mobile nav bar + sidenav -->
 
-      <center><P id="tiptitle">Tips on how to reduce Carbon Footprint</P><br>
+      <div id="navdivmobile"><ul id="navbarmobile">
+        <img src="images/logo.png" id="logo" style="float:right">
+
+        <button onclick="openNav()" id="navbutton">=</button>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="page.html">Info</a>
+        <a id="active" href="page2.html">Tips</a>
+        <a href="page3.html">Effects</a>
+        <a href="facts.html">Facts</a><hr>
+        <a href="Donate.html">Donate</a>
+        <a href="credits.html">Credits</a>
+      </ul></div>
+
+
+     <br><br><center><P id="tiptitle">Tips on how to reduce Carbon Footprint</P><br>
       <div id="tips">
         <P id="tiptext">Work on Recycling your plastic and your cardboard!</P></div><br>
       
@@ -37,33 +58,25 @@
       <div id="tips">
         <P id="tiptext">Limit the amount of energy you use from going place to place.</P></div><br>
 
-      <div id="tips">
-        <P id="tiptext2">Another good way to reduce it is also reuse your refill water bottles, reuse grocery bags,</P>
-        <P id="tiptext">and see how long you can go without creating any trash problems.</P></div><br>  
+      <div id="tips2">
+        <P id="tiptext">Another good way to reduce it is also reuse your refill water bottles, reuse grocery bags, and see how long you can go without creating any trash problems.</P></div><br>  
      
-     <div id="tips">
-        <P id="tiptext2">Doing two loads of laundry weekly in cold water instead of hot or warm water can save up to 500</P>
-        <P id="tiptext">pounds of carbon dioxide each year.</div><br>
+     <div id="tips2">
+        <P id="tiptext">Doing two loads of laundry weekly in cold water instead of hot or warm water can save up to 500 pounds of carbon dioxide each year.</P></div><br>
 
-     <div id="tips">
-        <P id="tiptext2">Balcony gardens are a great solution for urbanites looking to up their curb appeal while lowering their enviromental impact.</P></div><br>
+     <div id="tips2">
+        <P id="tiptext">Balcony gardens are a great solution for urbanites looking to up their curb appeal while lowering their enviromental impact.</P></div><br>
 
-        <div id="tips">
-          <P id="tiptext2">Doing all your errands in one day will help you cut back on unnecessary trips throughout the week. After</P>
-          <P id="tiptext">all, the less you drive, the more you reduce your carbon footprint!</P></div><br>
+        <div id="tips2">
+          <P id="tiptext">Doing all your errands in one day will help you cut back on unnecessary trips throughout the week. After all, the less you drive, the more you reduce your carbon footprint!</P></div><br>
 
-          <div id="tips">
-            <P id="tiptext2">Buying locally grown produce whenever possible drastically reduces the emissions caused by freight
-            <P id="tiptext">shipping. Plus, it’s a great way to support your community’s economy!</P></div><br></center>
-        <!-- Footer -->
-      
-      <footer class="bg-light text-center text-lg-start">
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-          © 2021 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">Our Project</a>
-        </div>
-      </footer>
+          <div id="tips2">
+            <P id="tiptext">Buying locally grown produce whenever possible drastically reduces the emissions caused by freight shipping. Plus, it’s a great way to support your community’s economy!</div><br></center>
+        </div></div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/script.js"></script>
+
+
 </body>
 </html>

@@ -1,0 +1,5 @@
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content:
+}

@@ -5,24 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
   <link href="css/flipcard.css" rel="stylesheet">
 </head>
 <body>
-  <br><div class="long" id="scroll">
-      <ul id="navbar">
-        <img src="images/logo.png" id="logo">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="page.html">Info</a></li>
-        <li><a href="page2.html">Tips</a></li>
-        <li><a href="">Template</a></li>
-        <li><a href="">Template</a></li>
-        <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
-        <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
-      </ul>
+  <div id="navdiv"><br><ul id="navbar">
+    <img src="images/logo.png" id="logo">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="page.html">Info</a></li>
+    <li><a href="page2.html">Tips</a></li>
+    <li><a href="page3.html">Effects</a></li>
+    <li><a href="facts.html">facts</a></li>
+    <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
+    <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
+  </ul></div>
+  
+  <!-- Mobile nav bar + sidenav -->
+
+  <div id="navdivmobile"><ul id="navbarmobile">
+    <img src="images/logo.png" id="logo" style="float:right">
+
+    <button onclick="openNav()" id="navbutton">=</button>
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
+    <a id="active"href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="page.html">Info</a>
+    <a href="page2.html">Tips</a>
+    <a href="page3.html">Effects</a>
+    <a href="facts.html">Facts</a><hr>
+    <a href="Donate.html">Donate</a>
+    <a href="credits.html">Credits</a>
+  </ul></div>
       <br><br><div class="container p-3 my-3" id="title" id="animation">
         <center><h1>Carbon Disrupters</h1>
         <p>We're here to destroy carbon and chew bubblegum, and we're all out of bubblegum</p></center>
@@ -38,5 +55,6 @@
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>

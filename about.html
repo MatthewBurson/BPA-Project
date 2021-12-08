@@ -10,16 +10,38 @@
   <link href="css/navstyle.css" rel="stylesheet">
 </head>
 <body>
-  <div id="test"><ul id="navbar">
-    <img src="images/logo.png" id="logo">
-    <li><a href="index.html">Home</a></li>
-    <li><a class="active" href="about.html">About</a></li>
-    <li><a href="page.html">Info</a></li>
-    <li><a href="page2.html">Tips</a></li>
-    <li><a href="">Template</a></li>
-    <li><a href="">Template</a></li>
-    <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
-    <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul></div>
+        
+      <!-- Desktop class sidebar -->
+  <div id="navdiv"><br><ul id="navbar">
+        <img src="images/logo.png" id="logo">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="page.html">Info</a></li>
+        <li><a href="page2.html">Tips</a></li>
+        <li><a href="page3.html">Effects</a></li>
+        <li><a href="facts.html">facts</a></li>
+        <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
+        <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
+      </ul></div>
+      
+      <!-- Mobile nav bar + sidenav -->
+
+      <div id="navdivmobile"><ul id="navbarmobile">
+        <img src="images/logo.png" id="logo" style="float:right">
+
+        <button onclick="openNav()" id="navbutton">=</button>
+        
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
+        <a href="index.html">Home</a>
+        <a id="active" href="about.html">About</a>
+        <a href="page.html">Info</a>
+        <a href="page2.html">Tips</a>
+        <a href="page3.html">Effects</a>
+        <a href="facts.html">Facts</a><hr>
+        <a href="Donate.html">Donate</a>
+        <a href="credits.html">Credits</a>
+      </ul></div>
       <body>
       <div class="parallax" id="headerimage"><center>
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
@@ -37,21 +59,21 @@
         <center><div class="long" id="scroll">
         <P id="headtext"><br><br>What are Greenhouse Gases?</P>
         <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
-        <p id="boxtext">The FitnessGram Pacer test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter Pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal *boop*. A single lap should be completed each time you hear this sound *ding*. Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p></div>
+        <p id="boxtext">Greenhouse Gases is a gas that contributes to the greenhouse effect by absorbing infrared radiation, carbon dioxide and chlorofluorocarbons. Greenhouse Gases is a gas that absorbs and emits radiant energy within the thermal infrared range, causing the greenhouse effect. The primary greenhouse gases in Earth's atmosphere would be water vapor, carbon dioxide, methane, nitrus oxide, and ozone.</p></div>
         <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('scroll1').scrollIntoView()">Index</a>
       </div>
         <div class="parallax" id="parallax1"></div>
         <div class="long" id="scroll1">
         <P id="headtext"><br><br>What is Carbon Footprint?</P>
         <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
-        <P id="boxtext">The FitnessGram Pacer test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter Pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal *boop*. A single lap should be completed each time you hear this sound *ding*. Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</P></div>
+        <P id="boxtext">Carbon Footprint is the amount of carbon dioxide and other carbon compounds emitted due to the consumption of fossil fuels by a particular person, or groups, or nations. Carbon Footprint is bad for the population because the biosphere is where carbon resides in trees, and plants, and humans live but because of all of the carbon dioxide it gets harder to live.</P></div>
         <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('scroll2').scrollIntoView()">Description</a> 
       </div>
         <div class="parallax" id="parallax2"></div>
         <div class="long" id="scroll2">
-          <P id="headtext"><br><br>What is Term?</P>
+          <P id="headtext"><br><br>What would be good coping skills to reduce Carbon Footprint?</P>
           <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
-          <P id="boxtext">The FitnessGram Pacer test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter Pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal *boop*. A single lap should be completed each time you hear this sound *ding*. Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</P></div> 
+          <P id="boxtext">Lower the amount of electricity that you use on a daily basis and also use less energy based items to help the pollution and your community’s. A few tips would be do laundry less, consider energy-efficent options and if you want more tips look on the tips page!</P></div> 
           <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('test').scrollIntoView()">Return to Top</a>  
         </div>
   

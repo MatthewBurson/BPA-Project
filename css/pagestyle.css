@@ -1,11 +1,122 @@
 body{
-    background-image: radial-gradient(rgb(235, 210, 235),rgb(224, 248, 250)), rgb(222, 248, 220);
+    background-image: linear-gradient(to top, rgba(235, 210, 235, 0.349), rgba(222, 248, 220, 0.459));
 }
 h1 {
-    text-shadow: 2px 2px rgba(55, 233, 203, 0.808);;
-    color: rgba(233, 55, 159, 0.808);;
+
+    color: rgba(0, 0, 0, 0.767);;
     text-decoration-thickness: bold;
   }
-  #pagetext{
-    text-shadow: 2px 2px rgba(55, 233, 203, 0.808);
+
+
+
+  #info{
+    width: 80%;
+    height: 150%;
+    margin-top: 100px;
+    border: 1px solid rgb(102, 125, 103);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
   }
+  #info2{
+    width: 80%;
+    height: 130%;
+    margin-top: 100px;
+    border: 1px solid rgb(102, 125, 103);;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+  }
+  #info3{
+    width: 80%;
+    height: 67%;
+    margin-top: 100px;
+    border: 1px solid rgb(102, 125, 103);;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+  }
+  
+  .effectp{
+    font-size: 25px;
+  }
+  .effecth{
+    font-weight: bolder;
+  }
+  
+  
+#tipsbutton{
+  background-color: rgba(11, 121, 103, 0.103);
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  transition: width 0.2s, height 0.2s, background-color 0.3s;
+  border: black 1px solid;
+}
+#tipsbutton:hover{
+  background-color: rgba(20, 29, 114, 0.144);
+  width: 420px;
+  height: 90px;
+}
+  
+  @media only screen and (orientation: portrait) and (min-width: 1in) and (max-width: 6in) {
+  
+
+    #info{
+      width: 96%;
+      height: 215%;
+      margin-top: 30px;
+      border: 1px solid rgb(102, 125, 103);
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+    }
+    #info2{
+      width: 96%;
+      height: 190%;
+      margin-top: 30px;
+      border: 1px solid rgb(102, 125, 103);;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+    }
+    #info3{
+      width: 96%;
+      height: 120%;
+      margin-top: 30px;
+      border: 1px solid rgb(102, 125, 103);;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+    }
+
+
+
+
+
+    #infoimage{
+      width: 350px;
+      height: 270px;
+    }
+
+  #infoimage2{
+    width: 350px;
+  }
+
+
+    
+#tipsbutton{
+  background-color: rgba(11, 121, 103, 0.103);
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  transition: width 0.2s, height 0.2s, background-color 0.3s;
+  border: black 1px solid;
+}
+#tipsbutton:hover{
+  background-color: rgba(20, 29, 114, 0.144);
+  width: 305px;
+  height: 90px;
+}
+  }
+
+
+
+
