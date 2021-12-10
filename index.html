@@ -4,57 +4,86 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/parallax.css" rel="stylesheet">
   <link href="css/navstyle.css" rel="stylesheet">
-  <link href="css/flipcard.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <div id="navdiv"><br><ul id="navbar">
-    <img src="images/logo.png" id="logo">
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="page.html">Info</a></li>
-    <li><a href="page2.html">Tips</a></li>
-    <li><a href="page3.html">Effects</a></li>
-    <li><a href="facts.html">facts</a></li>
-    <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
-    <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
-  </ul></div>
-  
-  <!-- Mobile nav bar + sidenav -->
+        
+         <!-- Desktop class sidebar -->
+         <div id="navdiv"><br><ul id="navbar">
+          <img src="images/logo.png" id="logo">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="effects.html">Effects</a></li>
+          <li><a href="facts.html">facts</a></li>
+          <li style="float:right" id="Donate"><a href="Donate.html">Donate</a></li>
+          <li style="float:right" id="Donate"><a href="credits.html">Credits</a></li></ul>
+        </ul></div>
+        
+        <!-- Mobile nav bar + sidenav -->
+      
+        <div id="navdivmobile"><ul id="navbarmobile">
+          <img src="images/logo.png" id="logo" style="float:right">
+      
+          <button onclick="openNav()" id="navbutton"></button>
+          <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
+          <a id="active" href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="tips.html">Tips</a>
+          <a href="effects.html">Effects</a>
+          <a href="facts.html">Facts</a><hr>
+          <a href="Donate.html">Donate</a>
+          <a href="credits.html">Credits</a>
+        </ul></div>
 
-  <div id="navdivmobile"><ul id="navbarmobile">
-    <img src="images/logo.png" id="logo" style="float:right">
-
-    <button onclick="openNav()" id="navbutton">=</button>
-    
-    <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><hr>
-    <a id="active"href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="page.html">Info</a>
-    <a href="page2.html">Tips</a>
-    <a href="page3.html">Effects</a>
-    <a href="facts.html">Facts</a><hr>
-    <a href="Donate.html">Donate</a>
-    <a href="credits.html">Credits</a>
-  </ul></div>
-      <br><br><div class="container p-3 my-3" id="title" id="animation">
-        <center><h1>Carbon Disrupters</h1>
-        <p>We're here to destroy carbon and chew bubblegum, and we're all out of bubblegum</p></center>
+      <body>
+      <div class="parallax" id="headerimage"><center>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-4">Carbon Footprint</h1>
+              <h4 class="mb-3">Carbon Footprint is the impact that your activities have on the amount of carbon dioxide produced through the burning of fossil fuels</h4>
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button" onClick="document.getElementById('scroll').scrollIntoView()">Greenhouse Gases</a>
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button" onClick="document.getElementById('scroll1').scrollIntoView()">Carbon Footprint</a>
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button" onClick="document.getElementById('scroll2').scrollIntoView()">Description</a></center>
+            </div></div></div></div>
+      <h1 id="scroll"></h1>
+        <!-- Background image -->
+ 
+        <center><div class="long" id="scroll">
+        <P id="headtext"><br><br>What are Greenhouse Gases?</P>
+        <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
+        <p id="boxtext">Greenhouse Gases is a gas that contributes to the greenhouse effect by absorbing infrared radiation, carbon dioxide and chlorofluorocarbons. Greenhouse Gases is a gas that absorbs and emits radiant energy within the thermal infrared range, causing the greenhouse effect. The primary greenhouse gases in Earth's atmosphere would be water vapor, carbon dioxide, methane, nitrus oxide, and ozone.</p></div>
+        <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('scroll1').scrollIntoView()">Index</a>
       </div>
-      
-      <!-- Footer -->
-      
-      <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">Our Project</a>
+        <div class="parallax" id="parallax1"></div>
+        <div class="long" id="scroll1">
+        <P id="headtext"><br><br>What is Carbon Footprint?</P>
+        <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
+        <P id="boxtext">Carbon Footprint is the amount of carbon dioxide and other carbon compounds emitted due to the consumption of fossil fuels by a particular person, or groups, or nations. Carbon Footprint is bad for the population because the biosphere is where carbon resides in trees, and plants, and humans live but because of all of the carbon dioxide it gets harder to live.</P></div>
+        <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('scroll2').scrollIntoView()">Description</a> 
+      </div>
+        <div class="parallax" id="parallax2"></div>
+        <div class="long" id="scroll2">
+          <P id="headtext"><br><br>What would be good coping skills to reduce Carbon Footprint?</P>
+          <div class="transbox" id="transbox" onmouseover="scrollFunction()" onmouseleave="scrollFunctionOut()">
+          <P id="boxtext">Lower the amount of electricity that you use on a daily basis and also use less energy based items to help the pollution and your community’s. A few tips would be do laundry less, consider energy-efficent options and if you want more tips look on the tips page!</P></div> 
+          <a class="btn btn-outline-light btn-lg" href="#!" id="continuebutton" role="button" onClick="document.getElementById('test').scrollIntoView()">Return to Top</a>  
         </div>
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="javascript/script.js"></script>
+  
+    <!-- Footer -->
+
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">Our Project</a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
