@@ -5,10 +5,11 @@ body {
 }
 @keyframes slideIn {
   0% {
-    transform: ;: translateY(-5%);
+    transform: translateY(-20px);
+    transition-timing-function: ease;
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(0px);
   }
 }
 #title{
@@ -91,7 +92,7 @@ body {
 }
 @keyframes slideIn {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(-50px);
   }
   100% {
     transform: translateX(0);
