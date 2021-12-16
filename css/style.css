@@ -1,8 +1,16 @@
 body {
-    background-image: white;
-    font-family: verdana;
+  animation: slideIn ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-
+@keyframes slideIn {
+  0% {
+    transform: ;: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 #title{
     background-color: rgba(135, 245, 125, 0.5);
     border-radius: 10px;
@@ -47,12 +55,10 @@ div.transbox {
   margin-top: -20px;
 }
 
-
-
 #useravatar{
   width: 200px;
   height: 200px;
-  border:2px solid rgb(68, 78, 62);
+  border:2px solid rgb(58, 138, 12);
   border-radius: 10px;
 }
 
@@ -69,4 +75,25 @@ div.transbox {
   font-size: 1.2em;
   width: 350px;
   border-radius: 12px;
+}
+
+#footer{
+  margin-top: 95%;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 1in) and (max-width: 6in) {
+
+
+body {
+  animation: slideIn ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
